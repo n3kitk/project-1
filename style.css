@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  ul,ol{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  .nav-link{
+
+  }
+  .nav-list{
+    display: flex;
+  }
+  .video{
+    padding-top: 70px;
+    padding-bottom: 420px;
+    background-image: url(./img/Rectangle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .video-heading{
+
+/* h2 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;
+margin-bottom: 30px;
+
+
+  }
+  .video-text{
+    /* Просто подивіться, як ми працюємо */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+  }
+  .video-container{
+    position: relative;
+  }
+  .video-button-container{
+    position:absolute;
+ top: 300px;
+    background-image: url(./img/Rectangle2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    padding-top: 165px;
+    padding-bottom: 165px;
+    margin: 0 auto;
+    padding-left: 335px;
+    padding-right: 335px;
+  }
+  .video-button{
+width: 300px;
+height: 100px;
+
+  }
+  .video-button-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+
+color: #FFFFFF;
+
+
+  }
+ .video-button-text::before{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url(./img/play-button.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+ }
+ 
